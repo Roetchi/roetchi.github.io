@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header {
+      background-color: #0a66c2;
+      color: white;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #0a66c2;
+      color: white;
+      padding: 12px 20px;
+      margin-top: 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .cv-container {
+      margin-top: 40px;
+    }
+
+    iframe {
+      width: 80%;
+      height: 600px;
+      border: none;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 14px;
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ömer Efe Özçelik</h1>
+    <p>BEng Software Engineering Student | Web Developer | Open Source Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm a BEng Software Engineering student passionate about building web apps and learning new things.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Available in CV.</p>
+    </section>
+
+    <section id="cv" class="cv-container">
+      <h2>My CV (Created with LaTeX)</h2>
+      <a href="CV.pdf" class="btn" target="_blank">📄 Download CV</a>
+
+      <div style="margin-top: 20px;">
+        <iframe src="CV.pdf"></iframe>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: Omer.Ozcelik@gisma-student.com</p>
+      <p>GitHub: <a href="https://github.com/Roetchi" target="_blank">github.com/Roetchi</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Ömer Efe Özçelik. Hosted on GitHub Pages.
+  </footer>
+
+</body>
+</html>
